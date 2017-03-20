@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B6D4DAF1E7E77190071A186 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D4DAE1E7E77190071A186 /* FavViewController.swift */; };
+		7B6D4DB11E7F7DEA0071A186 /* weather.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6D4DB01E7F7DEA0071A186 /* weather.xcassets */; };
 		7BB94FA21E7D2DDA0002FDF5 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB94FA11E7D2DDA0002FDF5 /* CityList.swift */; };
 		7BB94FA71E7D3FC50002FDF5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB94FA61E7D3FC50002FDF5 /* CoreData.framework */; };
 		7BB94FD11E7D48800002FDF5 /* city_list.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7BB94FD01E7D48800002FDF5 /* city_list.sqlite */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		7B6D4DAE1E7E77190071A186 /* FavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		7B6D4DB01E7F7DEA0071A186 /* weather.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = weather.xcassets; sourceTree = "<group>"; };
 		7BB94FA11E7D2DDA0002FDF5 /* CityList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
 		7BB94FA61E7D3FC50002FDF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7BB94FD01E7D48800002FDF5 /* city_list.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = city_list.sqlite; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				7BB94FA41E7D3D370002FDF5 /* SQLite */,
 				7BD36D391E76E0700012E1D8 /* Main.storyboard */,
 				7BD36D3F1E76E0700012E1D8 /* Assets.xcassets */,
+				7B6D4DB01E7F7DEA0071A186 /* weather.xcassets */,
 				7BD36D411E76E0700012E1D8 /* LaunchScreen.storyboard */,
 				7BD36D441E76E0700012E1D8 /* Info.plist */,
 				7BD36D3C1E76E0700012E1D8 /* weatherApp.xcdatamodeld */,
@@ -175,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6D4DB11E7F7DEA0071A186 /* weather.xcassets in Resources */,
 				7BD36D431E76E0700012E1D8 /* LaunchScreen.storyboard in Resources */,
 				7BB94FD11E7D48800002FDF5 /* city_list.sqlite in Resources */,
 				7BD36D401E76E0700012E1D8 /* Assets.xcassets in Resources */,

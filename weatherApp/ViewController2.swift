@@ -64,4 +64,8 @@ class ViewController2: UIViewController, UITableViewDelegate, UITableViewDataSou
         print(cityList.count)
         self.tableView.reloadData()
     }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        self.performSegue(withIdentifier: "unwindToFav", sender: self)
+    }
 }
