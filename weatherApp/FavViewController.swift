@@ -17,8 +17,6 @@ class FavViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         tableView.delegate = self
         tableView.dataSource = self
         
-        //cityList = CityList().getFavCity()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     @IBOutlet var sunrise: UILabel!
     @IBOutlet var sunset: UILabel!
     @IBOutlet var currentStatus: UIImageView!
-    @IBOutlet var credit: UILabel!
     @IBOutlet var describeStaus: UILabel!
     
     //預測
@@ -139,9 +138,9 @@ class ViewController: UIViewController {
         case 200..<300:
             a = "001lighticons-15.png"
         case 300..<400:
-            a = "001lighticons-2.png"
+            a = "001lighticons-17.png"
         case 500..<600:
-            a = "001lighticons-2.png"
+            a = "001lighticons-18.png"
         case 600..<700:
             a = "001lighticons-24.png"
         case 700..<800:
@@ -149,7 +148,7 @@ class ViewController: UIViewController {
         case 800:
             a = "001lighticons-2.png"
         case 801...805:
-            a = "001lighticons-14.png"
+            a = "001lighticons-25.png"
         default:
             break
         }

@@ -1,5 +1,5 @@
 //
-//  ViewController2.swift
+//  searchViewController.swift
 //  weatherApp
 //
 
